@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
   #config.vm.box = "vStone/centos-7.x-puppet.3.x"
   #config.vm.box = "https://boxes.bbqnetwork.be/centos-7-3-amd64-virtualbox/boxes/centos-7-3-amd64-virtualbox-17-02-15.box"
 
-  config.vm.box = "centos7-amd64-virtualbox"
+  config.vm.box = "centos-7-3-amd64-virtualbox"
   config.vm.box_url = "https://boxes.bbqnetwork.be/centos-7-3-amd64-virtualbox"
 
   config.vm.define "zoo01" do |zoo|
