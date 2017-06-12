@@ -1,5 +1,7 @@
 node default {
 
-  notify {"Unconfigured node":}
+  include ::profile_base
+
+  notify {'Unconfigured node':}
 
 }
