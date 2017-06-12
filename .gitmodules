@@ -10,3 +10,6 @@
 [submodule "puppet/modules/archive"]
 	path = puppet/modules/archive
 	url = https://github.com/voxpupuli/puppet-archive.git
+[submodule "puppet/modules/solr6"]
+	path = puppet/modules/solr6
+	url = git@github.com:carroarmato0/puppet-solr6.git
