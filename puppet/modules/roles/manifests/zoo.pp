@@ -1,7 +1,6 @@
-class roles::solr {
+class roles::zoo {
 
   include ::profile_base
-  include ::solr6
   include ::profile_zookeeper
 
 }
