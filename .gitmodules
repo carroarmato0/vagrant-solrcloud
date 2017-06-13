@@ -13,3 +13,6 @@
 [submodule "puppet/modules/solr6"]
 	path = puppet/modules/solr6
 	url = git@github.com:carroarmato0/puppet-solr6.git
+[submodule "puppet/modules/zookeeper"]
+	path = puppet/modules/zookeeper
+	url = https://github.com/deric/puppet-zookeeper.git

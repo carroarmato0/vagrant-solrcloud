@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.define "solr02" do |solr|
-    solr.vm.hostname = "default"
+    solr.vm.hostname = "solr02"
     #solr.vm.network "public_network", auto_config: false
     solr.vm.network "private_network", ip: "192.168.10.22"
   end
