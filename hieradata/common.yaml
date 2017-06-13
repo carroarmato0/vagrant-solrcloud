@@ -1,2 +1,3 @@
 ---
 solr6::memory: 1g
+solr6::zookeepers: []
