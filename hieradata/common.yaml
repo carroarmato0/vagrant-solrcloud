@@ -1,10 +1,13 @@
 ---
 solr6::memory: 1g
-solr6::zookeepers: []
+solr6::zookeepers:
+  - solr01
+  - solr02
+  - zoo01
 profile_zookeeper::servers:
-  - 192.168.10.11
-  - 192.168.10.21
-  - 192.168.10.22
+  - solr01
+  - solr02
+  - zoo01
 profile_zookeeper::tick_time: 2000
 profile_zookeeper::init_limit: 5
 profile_zookeeper::sync_limit: 2
