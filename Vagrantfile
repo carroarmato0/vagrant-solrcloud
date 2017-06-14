@@ -32,6 +32,9 @@ Vagrant.configure(2) do |config|
     vb.cpus = "2"
   end
 
+  # Clear firewall rules to allow intermachine communication
+  config.vm.provision "shell", inline: "iptables -F", run: "once"
+
   config.vm.provision "puppet" do |puppet|
    puppet.manifests_path     = "puppet/manifests"
    puppet.manifest_file      = "site.pp"
