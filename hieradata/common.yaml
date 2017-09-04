@@ -12,3 +12,4 @@ profile_zookeeper::tick_time: 2000
 profile_zookeeper::init_limit: 5
 profile_zookeeper::sync_limit: 2
 java::distribution: 'jdk'
+solr6::extra_params: '-Djute.maxbuffer=1000000000'
